@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#app {
+    width: 100%;
+    height: 800;
+    background-color: red;
+}
+
+#game {
+    width: 100%;
+    height: 800;
+    background-color: orange;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800;
+    background-color: yellow;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    margin: 8px;
+}
